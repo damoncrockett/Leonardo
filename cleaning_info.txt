@@ -1,0 +1,22 @@
+1. Some images cut because couldn’t be extracted
+
+2. All cover images deleted
+
+3. All ads deleted
+
+4. All broken up images deleted
+
+5. All images less than 128px on an axis deleted
+
+6. All images with aspect ratio greater than 3 deleted
+
+7. All images which are truly full pages of text+imgs deleted by machine/human methods
+
+8. Images thumbnailed to 128px after feature extraction
+
+9. All doubles within an issue deleted (which may actually be illegit, since diff articles could use the same image, tho it didn’t seem that way moving through the files, and that’d be a bit weird)
+
+
+There are images that are very similar, from the same articles, illustrating some small difference. So I’m careful not to remove those as doubles.
+
+Also, images can be exactly same size because part of a paneling, so not real indicator of doubles.
